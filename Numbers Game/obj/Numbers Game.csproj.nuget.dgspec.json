@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tomcat00\\source\\repos\\Numbers Game\\Numbers Game\\Numbers Game.csproj": {}
+    "C:\\Users\\Tomcat00\\Dotnet-401\\Lab01-a\\Numbers Game\\Numbers Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tomcat00\\source\\repos\\Numbers Game\\Numbers Game\\Numbers Game.csproj": {
+    "C:\\Users\\Tomcat00\\Dotnet-401\\Lab01-a\\Numbers Game\\Numbers Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tomcat00\\source\\repos\\Numbers Game\\Numbers Game\\Numbers Game.csproj",
+        "projectUniqueName": "C:\\Users\\Tomcat00\\Dotnet-401\\Lab01-a\\Numbers Game\\Numbers Game.csproj",
         "projectName": "Numbers Game",
-        "projectPath": "C:\\Users\\Tomcat00\\source\\repos\\Numbers Game\\Numbers Game\\Numbers Game.csproj",
+        "projectPath": "C:\\Users\\Tomcat00\\Dotnet-401\\Lab01-a\\Numbers Game\\Numbers Game.csproj",
         "packagesPath": "C:\\Users\\Tomcat00\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tomcat00\\source\\repos\\Numbers Game\\Numbers Game\\obj\\",
+        "outputPath": "C:\\Users\\Tomcat00\\Dotnet-401\\Lab01-a\\Numbers Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tomcat00\\AppData\\Roaming\\NuGet\\NuGet.Config",

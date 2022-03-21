@@ -58,6 +58,7 @@ namespace Numbers_Game
             {
                 sum += arr[i];
             }
+            if (sum < 20) throw new Exception($"Value of { sum } is too low");
             return sum;
         }
         static int GetProduct (int[] arr , int sum)
@@ -65,7 +66,7 @@ namespace Numbers_Game
             Console.Write("Enter a number between 1 and " + arr.Length + ": ");
             int n = Convert.ToInt32(Console.ReadLine());
             if(!(n > 0 && n<= arr.Length)) throw new IndexOutOfRangeException();
-            int product = sum * (n);
+            int product = sum * arr[n-1];
             return product;
         }
         static decimal GetQuotient(int product)
@@ -86,14 +87,14 @@ namespace Numbers_Game
         {
             while (true)
             {
-                bool flag = true;
+                
                 try
                 {
                     StartSequence();
                 }
                 catch (FormatException ex)
                 {
-                    flag = false;
+                    
                     Console.WriteLine("You dont enter a number ");
                     Console.WriteLine(ex.Message);
                     Console.WriteLine("Please try again ");      
@@ -101,14 +102,22 @@ namespace Numbers_Game
                 }
                 catch (IndexOutOfRangeException ex)
                 {
-                    flag = false;
+                    
                     Console.WriteLine("You dont enter a number outside the array bounds ");
                     Console.WriteLine(ex.Message);
                     Console.WriteLine("Please try again ");
                     continue;
                 }
+                catch(Exception ex)
+                {
+                    
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Please try again ");
+                    continue;
+
+                }
                 finally {
-                    if (flag) Console.WriteLine("Program is complete");
+                    Console.WriteLine("Program is complete");
                 }
                 break;
                 
